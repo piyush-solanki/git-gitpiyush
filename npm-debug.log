@@ -1,0 +1,297 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'spaceship-prompt',
+1 verbose cli   '-y' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData spaceship-prompt
+8 silly fetchNamedPackageData spaceship-prompt
+9 silly mapToRegistry name spaceship-prompt
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/spaceship-prompt
+13 verbose request uri https://registry.npmjs.org/spaceship-prompt
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 11:27:56 AM
+16 verbose request id 1f4e2f5d61dcc0f3
+17 verbose etag W/"5f832237ddc17cea17e725588465f505"
+18 verbose lastModified Sat, 31 Aug 2019 04:31:39 GMT
+19 http request GET https://registry.npmjs.org/spaceship-prompt
+20 http 304 https://registry.npmjs.org/spaceship-prompt
+21 verbose headers { date: 'Tue, 11 Feb 2020 11:27:56 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie':
+21 verbose headers    [ '__cfduid=db588880b9590c0c897c250f582fac24c1581420476; expires=Thu, 12-Mar-20 11:27:56 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+21 verbose headers   'cf-ray': '5635f9fa6ed2d58f-BOM',
+21 verbose headers   age: '38',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: '"5f832237ddc17cea17e725588465f505"',
+21 verbose headers   'last-modified': 'Sat, 31 Aug 2019 04:31:39 GMT',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Tue, 11 Feb 2020 11:27:56 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie':
+22 silly get      [ '__cfduid=db588880b9590c0c897c250f582fac24c1581420476; expires=Thu, 12-Mar-20 11:27:56 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+22 silly get     'cf-ray': '5635f9fa6ed2d58f-BOM',
+22 silly get     age: '38',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: '"5f832237ddc17cea17e725588465f505"',
+22 silly get     'last-modified': 'Sat, 31 Aug 2019 04:31:39 GMT',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/spaceship-prompt from cache
+24 verbose get saving spaceship-prompt to /home/ubuntu/.npm/registry.npmjs.org/spaceship-prompt/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule spaceship-prompt@3.11.2 checking installable status
+38 silly cache add args [ 'spaceship-prompt', null ]
+39 verbose cache add spec spaceship-prompt
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'spaceship-prompt',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'spaceship-prompt',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed spaceship-prompt@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for spaceship-prompt
+43 info addNameTag [ 'spaceship-prompt', 'latest' ]
+44 silly mapToRegistry name spaceship-prompt
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/spaceship-prompt
+48 verbose addNameTag registry:https://registry.npmjs.org/spaceship-prompt not in flight; fetching
+49 verbose get https://registry.npmjs.org/spaceship-prompt not expired, no request
+50 silly addNameTag next cb for spaceship-prompt with tag latest
+51 silly addNamed spaceship-prompt@3.11.2
+52 verbose addNamed "3.11.2" is a plain semver version for spaceship-prompt
+53 silly cache afterAdd spaceship-prompt@3.11.2
+54 verbose afterAdd /home/ubuntu/.npm/spaceship-prompt/3.11.2/package/package.json not in flight; writing
+55 verbose afterAdd /home/ubuntu/.npm/spaceship-prompt/3.11.2/package/package.json written
+56 silly loadAllDepsIntoIdealTree Finishing
+57 silly idealTree:prePrune lib
+57 silly idealTree:prePrune └── spaceship-prompt@3.11.2
+58 silly loadIdealTree Finishing
+59 silly currentTree lib
+60 silly idealTree lib
+60 silly idealTree └── spaceship-prompt@3.11.2
+61 silly generateActionsToTake Starting
+62 silly install generateActionsToTake
+63 silly generateActionsToTake Finishing
+64 silly diffTrees action count 1
+65 silly diffTrees add spaceship-prompt@3.11.2
+66 silly decomposeActions action count 8
+67 silly decomposeActions fetch spaceship-prompt@3.11.2
+68 silly decomposeActions extract spaceship-prompt@3.11.2
+69 silly decomposeActions test spaceship-prompt@3.11.2
+70 silly decomposeActions preinstall spaceship-prompt@3.11.2
+71 silly decomposeActions build spaceship-prompt@3.11.2
+72 silly decomposeActions install spaceship-prompt@3.11.2
+73 silly decomposeActions postinstall spaceship-prompt@3.11.2
+74 silly decomposeActions finalize spaceship-prompt@3.11.2
+75 silly executeActions Starting
+76 silly install executeActions
+77 silly doSerial global-install 0
+78 silly doParallel fetch 1
+79 verbose makeDirectory /home/ubuntu/.npm/_locks creation not in flight; initializing
+80 silly makeDirectory /home/ubuntu/.npm/_locks uid: 1000 gid: 1000
+81 verbose lock using /home/ubuntu/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+82 silly doParallel extract 1
+83 silly extract spaceship-prompt@3.11.2
+84 verbose unbuild lib/node_modules/.staging/spaceship-prompt-a7f684ed
+85 silly gentlyRm /usr/local/lib/node_modules/.staging/spaceship-prompt-a7f684ed is being purged from base /usr/local
+86 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/spaceship-prompt-a7f684ed
+87 verbose tar unpack /home/ubuntu/.npm/spaceship-prompt/3.11.2/package.tgz
+88 verbose tar unpacking to /usr/local/lib/node_modules/.staging/spaceship-prompt-a7f684ed
+89 silly gentlyRm /usr/local/lib/node_modules/.staging/spaceship-prompt-a7f684ed is being purged
+90 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/spaceship-prompt-a7f684ed
+91 silly gunzTarPerm modes [ '755', '644' ]
+92 silly gunzTarPerm extractEntry package.json
+93 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+94 silly gunzTarPerm extractEntry LICENSE.md
+95 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+96 silly gunzTarPerm extractEntry README.md
+97 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+98 silly gunzTarPerm extractEntry spaceship.zsh
+99 silly gunzTarPerm modified mode [ 'spaceship.zsh', 436, 420 ]
+100 silly gunzTarPerm extractEntry lib/hooks.zsh
+101 silly gunzTarPerm modified mode [ 'lib/hooks.zsh', 436, 420 ]
+102 silly gunzTarPerm extractEntry lib/section.zsh
+103 silly gunzTarPerm modified mode [ 'lib/section.zsh', 436, 420 ]
+104 silly gunzTarPerm extractEntry lib/utils.zsh
+105 silly gunzTarPerm modified mode [ 'lib/utils.zsh', 509, 493 ]
+106 silly gunzTarPerm extractEntry scripts/install.sh
+107 silly gunzTarPerm modified mode [ 'scripts/install.sh', 509, 493 ]
+108 silly gunzTarPerm extractEntry scripts/tests.sh
+109 silly gunzTarPerm modified mode [ 'scripts/tests.sh', 509, 493 ]
+110 silly gunzTarPerm extractEntry scripts/uninstall.sh
+111 silly gunzTarPerm modified mode [ 'scripts/uninstall.sh', 509, 493 ]
+112 silly gunzTarPerm extractEntry scripts/version.sh
+113 silly gunzTarPerm modified mode [ 'scripts/version.sh', 509, 493 ]
+114 silly gunzTarPerm extractEntry sections/aws.zsh
+115 silly gunzTarPerm modified mode [ 'sections/aws.zsh', 436, 420 ]
+116 silly gunzTarPerm extractEntry sections/battery.zsh
+117 silly gunzTarPerm modified mode [ 'sections/battery.zsh', 436, 420 ]
+118 silly gunzTarPerm extractEntry sections/char.zsh
+119 silly gunzTarPerm modified mode [ 'sections/char.zsh', 436, 420 ]
+120 silly gunzTarPerm extractEntry sections/conda.zsh
+121 silly gunzTarPerm modified mode [ 'sections/conda.zsh', 436, 420 ]
+122 silly gunzTarPerm extractEntry sections/dir.zsh
+123 silly gunzTarPerm modified mode [ 'sections/dir.zsh', 436, 420 ]
+124 silly gunzTarPerm extractEntry sections/docker.zsh
+125 silly gunzTarPerm modified mode [ 'sections/docker.zsh', 436, 420 ]
+126 silly gunzTarPerm extractEntry sections/dotnet.zsh
+127 silly gunzTarPerm modified mode [ 'sections/dotnet.zsh', 436, 420 ]
+128 silly gunzTarPerm extractEntry sections/elixir.zsh
+129 silly gunzTarPerm modified mode [ 'sections/elixir.zsh', 436, 420 ]
+130 silly gunzTarPerm extractEntry sections/elm.zsh
+131 silly gunzTarPerm modified mode [ 'sections/elm.zsh', 436, 420 ]
+132 silly gunzTarPerm extractEntry sections/ember.zsh
+133 silly gunzTarPerm extractEntry sections/exec_time.zsh
+134 silly gunzTarPerm modified mode [ 'sections/exec_time.zsh', 436, 420 ]
+135 silly gunzTarPerm extractEntry sections/exit_code.zsh
+136 silly gunzTarPerm modified mode [ 'sections/exit_code.zsh', 436, 420 ]
+137 silly gunzTarPerm extractEntry sections/git_branch.zsh
+138 silly gunzTarPerm modified mode [ 'sections/git_branch.zsh', 436, 420 ]
+139 silly gunzTarPerm extractEntry sections/git_status.zsh
+140 silly gunzTarPerm modified mode [ 'sections/git_status.zsh', 436, 420 ]
+141 silly gunzTarPerm extractEntry sections/git.zsh
+142 silly gunzTarPerm modified mode [ 'sections/git.zsh', 436, 420 ]
+143 silly gunzTarPerm extractEntry sections/golang.zsh
+144 silly gunzTarPerm modified mode [ 'sections/golang.zsh', 436, 420 ]
+145 silly gunzTarPerm extractEntry sections/haskell.zsh
+146 silly gunzTarPerm modified mode [ 'sections/haskell.zsh', 436, 420 ]
+147 silly gunzTarPerm extractEntry sections/hg_branch.zsh
+148 silly gunzTarPerm modified mode [ 'sections/hg_branch.zsh', 436, 420 ]
+149 silly gunzTarPerm extractEntry sections/hg_status.zsh
+150 silly gunzTarPerm modified mode [ 'sections/hg_status.zsh', 436, 420 ]
+151 silly gunzTarPerm extractEntry sections/hg.zsh
+152 silly gunzTarPerm modified mode [ 'sections/hg.zsh', 436, 420 ]
+153 silly gunzTarPerm extractEntry sections/host.zsh
+154 silly gunzTarPerm modified mode [ 'sections/host.zsh', 436, 420 ]
+155 silly gunzTarPerm extractEntry sections/jobs.zsh
+156 silly gunzTarPerm modified mode [ 'sections/jobs.zsh', 436, 420 ]
+157 silly gunzTarPerm extractEntry sections/julia.zsh
+158 silly gunzTarPerm modified mode [ 'sections/julia.zsh', 436, 420 ]
+159 silly gunzTarPerm extractEntry sections/kubecontext.zsh
+160 silly gunzTarPerm modified mode [ 'sections/kubecontext.zsh', 436, 420 ]
+161 silly gunzTarPerm extractEntry sections/line_sep.zsh
+162 silly gunzTarPerm modified mode [ 'sections/line_sep.zsh', 436, 420 ]
+163 silly gunzTarPerm extractEntry sections/node.zsh
+164 silly gunzTarPerm modified mode [ 'sections/node.zsh', 436, 420 ]
+165 silly gunzTarPerm extractEntry sections/package.zsh
+166 silly gunzTarPerm modified mode [ 'sections/package.zsh', 436, 420 ]
+167 silly gunzTarPerm extractEntry sections/php.zsh
+168 silly gunzTarPerm modified mode [ 'sections/php.zsh', 436, 420 ]
+169 silly gunzTarPerm extractEntry sections/pyenv.zsh
+170 silly gunzTarPerm modified mode [ 'sections/pyenv.zsh', 436, 420 ]
+171 silly gunzTarPerm extractEntry sections/ruby.zsh
+172 silly gunzTarPerm modified mode [ 'sections/ruby.zsh', 436, 420 ]
+173 silly gunzTarPerm extractEntry sections/rust.zsh
+174 silly gunzTarPerm modified mode [ 'sections/rust.zsh', 436, 420 ]
+175 silly gunzTarPerm extractEntry sections/swift.zsh
+176 silly gunzTarPerm modified mode [ 'sections/swift.zsh', 436, 420 ]
+177 silly gunzTarPerm extractEntry sections/terraform.zsh
+178 silly gunzTarPerm modified mode [ 'sections/terraform.zsh', 436, 420 ]
+179 silly gunzTarPerm extractEntry sections/time.zsh
+180 silly gunzTarPerm modified mode [ 'sections/time.zsh', 436, 420 ]
+181 silly gunzTarPerm extractEntry sections/user.zsh
+182 silly gunzTarPerm modified mode [ 'sections/user.zsh', 436, 420 ]
+183 silly gunzTarPerm extractEntry sections/venv.zsh
+184 silly gunzTarPerm modified mode [ 'sections/venv.zsh', 436, 420 ]
+185 silly gunzTarPerm extractEntry sections/vi_mode.zsh
+186 silly gunzTarPerm modified mode [ 'sections/vi_mode.zsh', 436, 420 ]
+187 silly gunzTarPerm extractEntry sections/xcode.zsh
+188 silly gunzTarPerm modified mode [ 'sections/xcode.zsh', 436, 420 ]
+189 silly gentlyRm /usr/local/lib/node_modules/.staging/spaceship-prompt-a7f684ed/node_modules is being purged
+190 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/spaceship-prompt-a7f684ed/node_modules
+191 silly doParallel preinstall 1
+192 silly preinstall spaceship-prompt@3.11.2 /usr/local/lib/node_modules/.staging/spaceship-prompt-a7f684ed
+193 info lifecycle spaceship-prompt@3.11.2~preinstall: spaceship-prompt@3.11.2
+194 silly lifecycle spaceship-prompt@3.11.2~preinstall: no script for preinstall, continuing
+195 silly doReverseSerial remove 0
+196 silly doSerial move 0
+197 silly doSerial finalize 1
+198 silly finalize /usr/local/lib/node_modules/spaceship-prompt
+199 silly doSerial build 1
+200 silly build spaceship-prompt@3.11.2
+201 info linkStuff spaceship-prompt@3.11.2
+202 silly linkStuff spaceship-prompt@3.11.2 has /usr/local/lib/node_modules as its parent node_modules
+203 silly linkStuff spaceship-prompt@3.11.2 is part of a global install
+204 silly linkStuff spaceship-prompt@3.11.2 is installed into a global node_modules
+205 silly linkStuff spaceship-prompt@3.11.2 is installed into the top-level global node_modules
+206 verbose linkBins spaceship-prompt@3.11.2
+207 verbose linkMans spaceship-prompt@3.11.2
+208 silly doSerial global-link 0
+209 silly doParallel update-linked 0
+210 silly doSerial install 1
+211 silly install spaceship-prompt@3.11.2 /usr/local/lib/node_modules/.staging/spaceship-prompt-a7f684ed
+212 info lifecycle spaceship-prompt@3.11.2~install: spaceship-prompt@3.11.2
+213 silly lifecycle spaceship-prompt@3.11.2~install: no script for install, continuing
+214 silly doSerial postinstall 1
+215 silly postinstall spaceship-prompt@3.11.2 /usr/local/lib/node_modules/.staging/spaceship-prompt-a7f684ed
+216 info lifecycle spaceship-prompt@3.11.2~postinstall: spaceship-prompt@3.11.2
+217 verbose lifecycle spaceship-prompt@3.11.2~postinstall: unsafe-perm in lifecycle false
+218 verbose lifecycle spaceship-prompt@3.11.2~postinstall: PATH: /usr/share/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/spaceship-prompt/node_modules/.bin:/usr/local/lib/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+219 verbose lifecycle spaceship-prompt@3.11.2~postinstall: CWD: /usr/local/lib/node_modules/spaceship-prompt
+220 silly lifecycle spaceship-prompt@3.11.2~postinstall: Args: [ '-c', './scripts/install.sh' ]
+221 info lifecycle spaceship-prompt@3.11.2~postinstall: Failed to exec postinstall script
+222 verbose unlock done using /home/ubuntu/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+223 silly rollbackFailedOptional Starting
+224 silly rollbackFailedOptional Finishing
+225 silly runTopLevelLifecycles Starting
+226 silly runTopLevelLifecycles Finishing
+227 silly install printInstalled
+228 verbose stack Error: spaceship-prompt@3.11.2 postinstall: `./scripts/install.sh`
+228 verbose stack spawn ENOENT
+228 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/lib/utils/spawn.js:17:16)
+228 verbose stack     at emitTwo (events.js:126:13)
+228 verbose stack     at ChildProcess.emit (events.js:214:7)
+228 verbose stack     at maybeClose (internal/child_process.js:925:16)
+228 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+229 verbose pkgid spaceship-prompt@3.11.2
+230 verbose cwd /home/ubuntu/git-gitpiyush
+231 error Linux 4.15.0-1057-aws
+232 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "spaceship-prompt" "-y"
+233 error node v8.10.0
+234 error npm  v3.5.2
+235 error file sh
+236 error code ELIFECYCLE
+237 error errno ENOENT
+238 error syscall spawn
+239 error spaceship-prompt@3.11.2 postinstall: `./scripts/install.sh`
+239 error spawn ENOENT
+240 error Failed at the spaceship-prompt@3.11.2 postinstall script './scripts/install.sh'.
+240 error Make sure you have the latest version of node.js and npm installed.
+240 error If you do, this is most likely a problem with the spaceship-prompt package,
+240 error not with npm itself.
+240 error Tell the author that this fails on your system:
+240 error     ./scripts/install.sh
+240 error You can get information on how to open an issue for this project with:
+240 error     npm bugs spaceship-prompt
+240 error Or if that isn't available, you can get their info via:
+240 error     npm owner ls spaceship-prompt
+240 error There is likely additional logging output above.
+241 verbose exit [ 1, true ]
